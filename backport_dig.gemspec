@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
     'lib/backport_dig/ostruct.rb'
   ]
 
-  s.required_ruby_version = ['>= 2.0.0', '< 2.3.0']
+  s.required_ruby_version = ['>= 2.0.0', '<= 2.5.1']
   s.post_install_message = <<-EOS
 backport_dig is the backport of Hash#dig, Array#dig and OpenStruct#dig in Ruby 2.3 to older Ruby versions.
 The best way is to use Ruby 2.3 or later.
